@@ -10,7 +10,7 @@ import static io.qameta.allure.Allure.step;
 public class Permission {
     @Test
     @Owner("Stanislav K.")
-    @Tags({@Tag("iOS"), @Tag("Sputnik"), @Tag("firstStart"), @Tag("SputnikAfr"), @Tag("regress")})
+    @Tags({@Tag("iOS"), @Tag("Sputnik"), @Tag("firstStart"), @Tag("SputnikAfr"), @Tag("Regress"), @Tag("UI")})
     @DisplayName("check permission to tracking people")
     void permissionTracking() {
         // pre-condition - Первый старт приложение после установки
@@ -40,7 +40,7 @@ public class Permission {
 
     @Test
     @Owner("Stanislav K.")
-    @Tags({@Tag("iOS"), @Tag("Sputnik"), @Tag("firstStart"), @Tag("SputnikAfr"), @Tag("regress")})
+    @Tags({@Tag("iOS"), @Tag("Sputnik"), @Tag("firstStart"), @Tag("SputnikAfr"), @Tag("Regress"), @Tag("UI")})
     @DisplayName("check permission for push")
     void checkPermissionPush() {
         // pre-condition - Первый старт приложение после установки
@@ -51,6 +51,5 @@ public class Permission {
 
         });
     }
-
 
 }

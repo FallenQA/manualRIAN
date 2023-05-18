@@ -16,7 +16,7 @@ public class ManualCheckIcons {
     @Label("Manual")
     @DisplayName("Проверяем отображение верной иконки приложения(плеера) в шторке")
     void checkRadioIconInNotification() {
-        // pre-condition - Первый старт приложение после установки
+
         step("open app", () -> {
 
         });
@@ -41,7 +41,7 @@ public class ManualCheckIcons {
     @Label("Manual")
     @DisplayName("отображение иконка при пуш уведомлении")
     void checkPushIconInNotification() {
-        // pre-condition - Первый старт приложение после установки
+
         step("you will need to send push notification on your device( OneSignal )", () -> {
 
         });
@@ -61,7 +61,7 @@ public class ManualCheckIcons {
     @Label("Manual")
     @DisplayName("Проверяем отображение иконки приложения и при свернутом состоянии")
     void checkAppIcon() {
-        // pre-condition - Первый старт приложение после установки
+
         step("open app", () -> {
 
         });
