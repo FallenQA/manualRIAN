@@ -1,14 +1,18 @@
 package rian.manual;
 
+import io.qameta.allure.Owner;
 import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.Tags;
+
 import static io.qameta.allure.Allure.step;
 
 
 public class Permission {
     @Test
-    @Tags({@Tag("iOS"), @Tag("Sputnik"), @Tag("firstStart"), @Tag("SputnikAfr")})
+    @Owner("Stanislav K.")
+    @Tags({@Tag("iOS"), @Tag("Sputnik"), @Tag("firstStart"), @Tag("SputnikAfr"), @Tag("regress")})
     @DisplayName("check permission to tracking people")
-            void permissionTracking() {
+    void permissionTracking() {
         // pre-condition - Первый старт приложение после установки
         step("open app", () -> {
 
@@ -33,8 +37,10 @@ public class Permission {
         });
 
     }
+
     @Test
-    @Tags({@Tag("iOS"), @Tag("Sputnik"), @Tag("firstStart"), @Tag("SputnikAfr")})
+    @Owner("Stanislav K.")
+    @Tags({@Tag("iOS"), @Tag("Sputnik"), @Tag("firstStart"), @Tag("SputnikAfr"), @Tag("regress")})
     @DisplayName("check permission for push")
     void checkPermissionPush() {
         // pre-condition - Первый старт приложение после установки
@@ -45,4 +51,6 @@ public class Permission {
 
         });
     }
+
+
 }

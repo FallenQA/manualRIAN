@@ -42,9 +42,9 @@ dependencies {
 test {
     useJUnitPlatform()
 }
-
-task hw19_test(type: Test) {
-    useJUnitPlatform {
-        includeTags("hw19_test")
-    }
-}
+//
+//task test(type: Test) {
+//    useJUnitPlatform {
+//        includeTags("Test")
+//    }
+//}
