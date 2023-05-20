@@ -1,4 +1,4 @@
-package rian.manual;
+package tests.manual;
 
 import io.qameta.allure.Owner;
 import org.junit.jupiter.api.DisplayName;

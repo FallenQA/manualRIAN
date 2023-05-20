@@ -1,4 +1,4 @@
-package rian.manual;
+package tests.manual;
 
 public class Account {
 }
